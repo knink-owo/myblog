@@ -1,7 +1,13 @@
 ---
-title: Home
+title: 起点
 ---
+我是 knink 。这是我在互联网上的小小花园——欢迎来访！
 
+暂时还没想好在这里说啥，见谅见谅 QWQ
 
- [documentation](https://quartz.jzhao.xyz) 
- npx quartz sync
+小径：
+- [[自我介绍]]：关于 knink
+- [[content/1-文章/index|正文]]：正式的文章
+- [[content/0-日记/index|日记]]：日志和随笔
+- [[content/2-资源/index|资源]]：资源分享
+- [[书单]]：读过的书

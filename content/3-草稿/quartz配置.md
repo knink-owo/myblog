@@ -2,6 +2,10 @@
 title: 配置
 draft: ture
 ---
+
+ [documentation](https://quartz.jzhao.xyz) 
+npx quartz sync
+
 ## 前置
 
 |场地|钥匙|描述|
