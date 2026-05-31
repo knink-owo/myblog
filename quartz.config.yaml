@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: knink-owo.github.io
+  baseUrl: knink-owo.github.io/myblog
   ignorePatterns:
     - private
     - templates
