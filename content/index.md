@@ -1,6 +1,7 @@
 ---
-title: 欢迎来到墨水的花园！
+title: Home
 ---
 
 
  [documentation](https://quartz.jzhao.xyz) 
+ npx quartz sync
