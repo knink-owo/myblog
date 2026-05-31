@@ -7,7 +7,7 @@ title: 起点
 
 小径：
 - [[自我介绍]]：关于 knink（墨水）
-- [[content/1-文章/index|正文]]：正式的文章
-- [[content/0-日记/index|日记]]：日志和随笔
-- [[content/2-资源/index|资源]]：资源分享
+- [[content/1-文章簿/index|文章簿]]：正式的文章
+- [[content/0-日记本/index|日记本]]：日志和随笔
+- [[content/2-收藏夹/index|收藏夹]]：资源分享
 - [[书架]]：读过的书
