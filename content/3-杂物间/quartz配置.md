@@ -1,10 +1,18 @@
 ---
-title: 配置
-draft: ture
+publish: false
 ---
 
  [documentation](https://quartz.jzhao.xyz) 
+ 
+```
+#进入
+cd D:Blog/myblog/quartz
+#更新
 npx quartz sync
+#预览
+npx quartz build --serve
+```
+
 
 ## 前置
 
