@@ -1,4 +1,11 @@
+---
+title: Claude Code命令参考
+---
 > 完整命令列表请参考官方文档：[code.claude.com/docs/en/commands](https://code.claude.com/docs/en/commands)
+
+## 常用命令
+待定，等我自己用用总结一下。
+
 ## 命令参考
 
 Claude Code 命令可分为 **CLI 命令**（启动终端）、**斜杠命令**（会话内）和 **快捷键**（会话内即时操作）三种类型。
