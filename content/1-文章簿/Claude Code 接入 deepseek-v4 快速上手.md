@@ -1,3 +1,7 @@
+---
+title: Claude Code 接入 deepseek-v4 快速上手
+---
+
 ## 一、安装
 官方推荐的 WinGet 安装：
 1. 在“开始”菜单（点击 windows 图标进入）顶部搜索栏中输入PowerShell，在搜索结果中找到它。
