@@ -1,5 +1,7 @@
 ---
 publish: false
+draft: ture
+node-colour: "#9b8eab"
 ---
 
  [documentation](https://quartz.jzhao.xyz) 

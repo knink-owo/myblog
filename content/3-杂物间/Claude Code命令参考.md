@@ -1,5 +1,6 @@
 ---
 title: Claude Code命令参考
+node-colour: "#9b8eab"
 ---
 > 完整命令列表请参考官方文档：[code.claude.com/docs/en/commands](https://code.claude.com/docs/en/commands)
 

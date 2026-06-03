@@ -1,3 +1,74 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// ============================================================
+// 友链卡片布局 (Friend Links Card Grid)
+// ============================================================
+
+.friend-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.friend-card {
+  background: var(--light);
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.65rem;
+  border: 1px solid var(--lightgray);
+  min-height: 180px;
+  justify-content: center;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.friend-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--lightgray);
+  flex-shrink: 0;
+}
+
+.friend-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+
+  &:hover {
+    text-decoration: underline;
+    color: var(--tertiary);
+  }
+}
+
+.friend-desc {
+  font-size: 0.88rem;
+  color: var(--gray);
+  margin: 0;
+  line-height: 1.55;
+  max-width: 90%;
+}
+
+// 窄屏单列
+@media (max-width: 600px) {
+  .friend-grid {
+    grid-template-columns: 1fr;
+  }
+}

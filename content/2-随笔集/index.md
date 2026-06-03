@@ -1,5 +1,6 @@
 ---
 title: 2-随笔集
+node-colour: "#8aaa9a"
 ---
 大部分短文在这儿。
 

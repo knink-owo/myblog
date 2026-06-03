@@ -1,5 +1,6 @@
 ---
 title: Claude Code 接入 deepseek-v4 快速上手
+node-colour: "#6b8a9e"
 ---
 
 ## 一、安装
