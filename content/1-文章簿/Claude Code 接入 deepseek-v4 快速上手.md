@@ -69,7 +69,7 @@ $env:CLAUDE_CODE_EFFORT_LEVEL="max"
 ## 三、绕过登录
 因为 Claude Code 首次运行强制要求登录 Anthropic 官方账号，所以需要手动修改一个配置文件绕过它。
 1. 找到配置文件：在 `C盘\用户\你的用户名` 下搜索 `.claude.json` 文件。（若文件不存在，则右键新建一个文本文件，将其改名为 `.claude.json`
-2. 修改文件内容：打开该文件（可使用 Vscode），找到并确保其内容包含以下字段，并且使 `hasCompletedOnboarding` 的值是 `ture`（如果没有就手动添加）。
+2. 修改文件内容：打开该文件（可使用 VS Code），找到并确保其内容包含以下字段，并且使 `hasCompletedOnboarding` 的值是 `ture`（如果没有就手动添加）。
 ```json
 {
     "hasCompletedOnboarding": true
@@ -84,9 +84,10 @@ $env:CLAUDE_CODE_EFFORT_LEVEL="max"
 
 推荐一个 Claude code 实践项目 `claude-code-best-practice`，包含从入门到进阶各种使用技巧。
 项目地址：https://github.com/shanraisshan
-可以从 Pull requests 中找到项目的中文版本。
+可以从 Pull requests 中找到项目 README.md 的中文版本。
 
 ---
 
 相关：
-[[Claude Code命令参考]]
+[[Claude Code 命令参考（粗略）]]
+[[Claude Code 高手之路（进行中）]]
