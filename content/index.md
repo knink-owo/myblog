@@ -1,5 +1,5 @@
 ---
-title: 欢迎！
+title:
 description: 墨水的花园
 socialImage: "![[4d930b638da17adc2ba66c7cf0dee221.jpg]]"
 node-colour: var(--secondary)
