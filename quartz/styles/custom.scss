@@ -72,3 +72,21 @@
     grid-template-columns: 1fr;
   }
 }
+
+// ============================================================
+// Graph View 图谱视图边框
+// ============================================================
+
+.graph-outer {
+  border: 1px solid var(--gray) !important;
+}
+
+.graph::after {
+  content: "左击进入，右击展开";
+  display: block;
+  font-size: 0.65rem;
+  color: var(--gray);
+  opacity: 0.7;
+  text-align: right;
+  margin-top: 2px;
+}
