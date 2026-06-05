@@ -1,8 +1,7 @@
 ---
 title:
 description: 墨水的花园
-socialImage: "![[4d930b638da17adc2ba66c7cf0dee221.jpg]]"
-node-colour: var(--secondary)
+socialDescription: 这里是墨水的花园！
 ---
 > 每一条岔路都是扣人心弦的转机
 

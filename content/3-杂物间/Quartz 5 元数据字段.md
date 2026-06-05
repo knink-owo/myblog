@@ -1,5 +1,6 @@
 ---
 node-colour: "#9b8eab"
+draft: ture
 ---
 
 
@@ -35,11 +36,11 @@ node-colour: "#9b8eab"
 
 ### 1. 基础标识
 
-| 字段 | 说明 |
-|------|------|
-| title | 页面标题，全站引用（目录、搜索、图谱、RSS……），未设时回退到文件名 |
-| description | 摘要，影响搜索排序和 SEO；未设时自动取正文前 150 字符 |
-| socialDescription | 仅社交预览用，优先级高于 description |
+| 字段                | 说明                                  |
+| ----------------- | ----------------------------------- |
+| title             | 页面标题，全站引用（目录、搜索、图谱、RSS……），未设时回退到文件名 |
+| description       | 摘要，影响搜索排序和 SEO；未设时自动取正文前 150 字符     |
+| socialDescription | 仅社交预览用，优先级高于 description            |
 
 ### 2. 组织分类
 
