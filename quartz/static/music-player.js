@@ -310,11 +310,32 @@
     tryStart();
   }
 
+  // SPA navigation: rebuild card in new DOM, keep audio playing
+  function rebuildCardOnly() {
+    var sidebar = document.querySelector(".sidebar.left");
+    if (!sidebar) return;
+    if (playlist.length === 0) return;
+    // Old card element is gone (DOM replaced), build a fresh one
+    buildUI();
+    // Re-sync display and progress with current state
+    updateDisplay();
+    updatePlayBtn();
+    updateProgress();
+  }
+
   document.addEventListener("nav", function () {
-    destroy();
-    init();
-  });
-  document.addEventListener("prenav", function () {
-    if (audio) audio.pause();
+    cardEl = null;
+    if (playlist.length > 0) {
+      // Card DOM was destroyed by SPA — rebuild it without resetting state
+      var sidebar = document.querySelector(".sidebar.left");
+      if (sidebar) {
+        sidebar.querySelector(".music-card")?.remove();
+        rebuildCardOnly();
+      }
+    } else {
+      // First load, or playlist empty — full init
+      initAttempts = 0;
+      init();
+    }
   });
 })();
