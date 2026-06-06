@@ -20,7 +20,7 @@
   text-align: center;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   transition:
-    transform 0.2s ease,
+    transform 0.2s ease,0
     box-shadow 0.2s ease;
   display: flex;
   flex-direction: column;
@@ -89,4 +89,116 @@
   opacity: 0.7;
   text-align: right;
   margin-top: 2px;
+}
+
+// ============================================================
+// 音乐播放卡片 (Music Player Card)
+// ============================================================
+
+// Shorten Explorer to make room for music card
+.sidebar.left .explorer {
+  max-height: 55vh;
+  overflow-y: auto;
+}
+
+.music-card {
+  margin-top: 1rem;
+  padding: 0.65rem 0.85rem 0.55rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background: var(--light);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex-shrink: 0;
+}
+
+// Row 1: note icon + title (inline)
+.music-card-row1 {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+.music-card-note {
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.music-card-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--dark);
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--secondary);
+  }
+}
+
+.music-card-artist {
+  font-size: 0.72rem;
+  color: var(--gray);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 1.2rem; // align with title text (note width)
+}
+
+// Controls — wider spacing
+.music-card-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+  padding: 2px 0;
+}
+
+.music-card-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--gray);
+  padding: 2px 8px;
+  border-radius: 4px;
+  transition: color 0.15s ease, background 0.15s ease;
+  line-height: 1;
+
+  &:hover {
+    color: var(--dark);
+    background: var(--lightgray);
+  }
+}
+
+.music-card-btn-play {
+  font-size: 1.2rem;
+  color: var(--secondary);
+
+  &:hover {
+    color: var(--tertiary);
+  }
+}
+
+// Progress bar
+.music-card-progress {
+  height: 3px;
+  background: var(--lightgray);
+  border-radius: 2px;
+  margin-top: 2px;
+  overflow: hidden;
+}
+
+.music-card-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--secondary);
+  border-radius: 2px;
+  transition: width 0.3s ease;
 }

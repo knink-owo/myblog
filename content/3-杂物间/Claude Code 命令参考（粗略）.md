@@ -5,28 +5,32 @@ node-colour: "#9b8eab"
 > 完整命令列表请参考官方文档：[code.claude.com/docs/en/commands](https://code.claude.com/docs/en/commands)
 
 ## 常用命令
-待定，等我自己用用总结一下。
+> 待定，等我自己用用总结一下。
+
+`claude -c`：回复最近一次对话
+`claude -r` ：展开当前项目历史对话列表
+
 
 ## 命令参考
 
 Claude Code 命令可分为 **CLI 命令**（启动终端）、**斜杠命令**（会话内）和 **快捷键**（会话内即时操作）三种类型。
 ### 一、CLI 命令（启动参数）
 
-|命令|功能|示例|
-|---|---|---|
-| `claude` |在当前目录启动交互式会话| `claude` |
-| `claude dir` |指定项目目录启动| `claude /path/to/project` |
-| `claude -p "query"` / `--print` |一次性查询，执行后退出| `claude -p "analyze errors"` |
-| `cat \| claude -p` |通过管道传递内容| `cat logs.txt \| claude -p "explain"` |
-| `claude -c` / `--continue` |继续最近的一次会话| `claude -c` |
-| `claude -r <id>` / `--resume` |通过会话 ID 恢复指定会话| `claude -r abc123 "continue task"` |
-| `claude --model <模型>` |指定模型启动| `claude --model opus` |
-| `claude --add-dir <dir>` |添加额外工作目录| `claude --add-dir ../lib` |
-| `claude --version` |查看当前版本| `claude --version` |
-| `claude update` |升级到最新版本| `claude update` |
-| `claude mcp` |管理 MCP 服务器配置| `claude mcp` |
-| `claude --append-system-prompt` |追加系统提示词| `claude --append-system-prompt "Always use TypeScript"` |
-| `claude --verbose` |启用详细日志| `claude --verbose` |
+| 命令                              | 功能             | 示例                                                      |
+| ------------------------------- | -------------- | ------------------------------------------------------- |
+| `claude`                        | 在当前目录启动交互式会话   | `claude`                                                |
+| `claude dir`                    | 指定项目目录启动       | `claude /path/to/project`                               |
+| `claude -p "query"` / `--print` | 一次性查询，执行后退出    | `claude -p "analyze errors"`                            |
+| `cat \| claude -p`              | 通过管道传递内容       | `cat logs.txt \| claude -p "explain"`                   |
+| `claude -c` / `--continue`      | 继续最近的一次会话      | `claude -c`                                             |
+| `claude -r <id>` / `--resume`   | 通过会话 ID 恢复指定会话 | `claude -r abc123 "continue task"`                      |
+| `claude --model <模型>`           | 指定模型启动         | `claude --model opus`                                   |
+| `claude --add-dir <dir>`        | 添加额外工作目录       | `claude --add-dir ../lib`                               |
+| `claude --version`              | 查看当前版本         | `claude --version`                                      |
+| `claude update`                 | 升级到最新版本        | `claude update`                                         |
+| `claude mcp`                    | 管理 MCP 服务器配置   | `claude mcp`                                            |
+| `claude --append-system-prompt` | 追加系统提示词        | `claude --append-system-prompt "Always use TypeScript"` |
+| `claude --verbose`              | 启用详细日志         | `claude --verbose`                                      |
 
 ### 二、斜杠命令（会话内）
 

@@ -95,6 +95,15 @@ export function pageResources(
         script: contentIndexScript,
       },
       ...resolvedJs,
+      {
+        src:
+          baseDir === "."
+            ? "/static/music-player.js"
+            : joinSegments(baseDir, "static/music-player.js") as string,
+        loadTime: "afterDOMReady",
+        contentType: "external",
+        spaPreserve: false,
+      },
     ],
     additionalHead: staticResources.additionalHead,
   }
