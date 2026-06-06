@@ -4,12 +4,33 @@ node-colour: "#9b8eab"
 ---
 > 完整命令列表请参考官方文档：[code.claude.com/docs/en/commands](https://code.claude.com/docs/en/commands)
 
+[全网最全！60分钟全面掌握Claude Code～【附完整文档】_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1NvRyBzEhq/?spm_id_from=333.337.search-card.all.click&vd_source=7ef34ead8af5399cefaf24217fa6836c)
 ## 常用命令
 > 待定，等我自己用用总结一下。
 
-`claude -c`：回复最近一次对话
-`claude -r` ：展开当前项目历史对话列表
+/compact：主动压缩上下文，保留关键信息
+/clear：
+/context：
+/mode：切换模型
+/btw：
+/simplify
+/rewind：回滚
+`claude -c`（/resume）：回复最近一次对话
+`claude -r`：展开当前项目历史对话列表
+/init：初始化整个项目
+/memory：自动记忆
+/agent：创建子 agent
 
+Git
+CLAUDE.md
+
+
+Skills
+MCP
+CLI
+SubAgent
+Hooks
+插件 `/plugins`
 
 ## 命令参考
 

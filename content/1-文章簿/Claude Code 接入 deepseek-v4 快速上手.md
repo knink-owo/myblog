@@ -89,5 +89,5 @@ $env:CLAUDE_CODE_EFFORT_LEVEL="max"
 ---
 
 相关：
-[[Claude Code 命令参考（粗略）]]
+[[Claude Code 命令参考（粗）]]
 [[Claude Code 高手之路（进行中）]]
