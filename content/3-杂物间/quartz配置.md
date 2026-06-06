@@ -15,7 +15,11 @@ npx quartz sync
 npx quartz build --serve
 ```
 
-
+  
+  │ 写/改文章、日记、图片  │ npx quartz sync                 
+  
+  │改任何代码、样式、配置 │ git add + git commit + git push 
+ 
 ## 前置
 
 | 场地    | 钥匙                                               | 描述                                                                                                            |
