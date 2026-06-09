@@ -1,0 +1,50 @@
+[Hello-Agents](https://hello-agents.datawhale.cc/#/)
+
+## [📖 内容导航](https://hello-agents.datawhale.cc/#/?id=%f0%9f%93%96-%e5%86%85%e5%ae%b9%e5%af%bc%e8%88%aa)
+
+| 章节                                                                                                                                                                                                                      | 关键内容                                  | 状态  | 笔记                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --- | ---------------------- |
+| [前言](https://hello-agents.datawhale.cc/#/./%E5%89%8D%E8%A8%80)                                                                                                                                                          | 项目的缘起、背景及读者建议                         | ✅   |                        |
+| **第一部分：智能体与语言模型基础**                                                                                                                                                                                                     |                                       |     |                        |
+| [第一章 初识智能体](https://hello-agents.datawhale.cc/#/./chapter1/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%88%9D%E8%AF%86%E6%99%BA%E8%83%BD%E4%BD%93)                                                                                 | 智能体定义、类型、范式与应用                        | ✅   | [[Hello-Agents 第一章笔记]] |
+| [第二章 智能体发展史](https://hello-agents.datawhale.cc/#/./chapter2/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E6%99%BA%E8%83%BD%E4%BD%93%E5%8F%91%E5%B1%95%E5%8F%B2)                                                                       | 从符号主义到 LLM 驱动的智能体演进                   | ✅   | [[Hello-Agents 第二章笔记]] |
+| [第三章 大语言模型基础](https://hello-agents.datawhale.cc/#/./chapter3/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80)                                                             | Transformer、提示、主流 LLM 及其局限            | ✅   |                        |
+| **第二部分：构建你的大语言模型智能体**                                                                                                                                                                                                   |                                       |     |                        |
+| [第四章 智能体经典范式构建](https://hello-agents.datawhale.cc/#/./chapter4/%E7%AC%AC%E5%9B%9B%E7%AB%A0%20%E6%99%BA%E8%83%BD%E4%BD%93%E7%BB%8F%E5%85%B8%E8%8C%83%E5%BC%8F%E6%9E%84%E5%BB%BA)                                         | 手把手实现 ReAct、Plan-and-Solve、Reflection | ✅   |                        |
+| [第五章 基于低代码平台的智能体搭建](https://hello-agents.datawhale.cc/#/./chapter5/%E7%AC%AC%E4%BA%94%E7%AB%A0%20%E5%9F%BA%E4%BA%8E%E4%BD%8E%E4%BB%A3%E7%A0%81%E5%B9%B3%E5%8F%B0%E7%9A%84%E6%99%BA%E8%83%BD%E4%BD%93%E6%90%AD%E5%BB%BA) | 了解 Coze、Dify、n8n 等低代码智能体平台使用          | ✅   |                        |
+| [第六章 框架开发实践](https://hello-agents.datawhale.cc/#/./chapter6/%E7%AC%AC%E5%85%AD%E7%AB%A0%20%E6%A1%86%E6%9E%B6%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5)                                                                       | AutoGen、AgentScope、LangGraph 等主流框架应用  | ✅   |                        |
+| [第七章 构建你的Agent框架](https://hello-agents.datawhale.cc/#/./chapter7/%E7%AC%AC%E4%B8%83%E7%AB%A0%20%E6%9E%84%E5%BB%BA%E4%BD%A0%E7%9A%84Agent%E6%A1%86%E6%9E%B6)                                                             | 从 0 开始构建智能体框架                         | ✅   |                        |
+| **第三部分：高级知识扩展**                                                                                                                                                                                                         |                                       |     |                        |
+| [第八章 记忆与检索](https://hello-agents.datawhale.cc/#/./chapter8/%E7%AC%AC%E5%85%AB%E7%AB%A0%20%E8%AE%B0%E5%BF%86%E4%B8%8E%E6%A3%80%E7%B4%A2)                                                                                 | 记忆系统，RAG，存储                           | ✅   |                        |
+| [第九章 上下文工程](https://hello-agents.datawhale.cc/#/./chapter9/%E7%AC%AC%E4%B9%9D%E7%AB%A0%20%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B)                                                                                 | 持续交互的"情境理解"                           | ✅   |                        |
+| [第十章 智能体通信协议](https://hello-agents.datawhale.cc/#/./chapter10/%E7%AC%AC%E5%8D%81%E7%AB%A0%20%E6%99%BA%E8%83%BD%E4%BD%93%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE)                                                            | MCP、A2A、ANP 等协议解析                     | ✅   |                        |
+| [第十一章 Agentic-RL](https://hello-agents.datawhale.cc/#/./chapter11/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%20Agentic-RL)                                                                                                    | 从 SFT 到 GRPO 的 LLM 训练实战               | ✅   |                        |
+| [第十二章 智能体性能评估](https://hello-agents.datawhale.cc/#/./chapter12/%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0%20%E6%99%BA%E8%83%BD%E4%BD%93%E6%80%A7%E8%83%BD%E8%AF%84%E4%BC%B0)                                                  | 核心指标、基准测试与评估框架                        | ✅   |                        |
+| **第四部分：综合案例进阶**                                                                                                                                                                                                         |                                       |     |                        |
+| [第十三章 智能旅行助手](https://hello-agents.datawhale.cc/#/./chapter13/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0%20%E6%99%BA%E8%83%BD%E6%97%85%E8%A1%8C%E5%8A%A9%E6%89%8B)                                                            | MCP 与多智能体协作的真实世界应用                    | ✅   |                        |
+| [第十四章 自动化深度研究智能体](https://hello-agents.datawhale.cc/#/./chapter14/%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0%20%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6%E6%99%BA%E8%83%BD%E4%BD%93)                    | DeepResearch Agent 复现与解析              | ✅   |                        |
+| [第十五章 构建赛博小镇](https://hello-agents.datawhale.cc/#/./chapter15/%E7%AC%AC%E5%8D%81%E4%BA%94%E7%AB%A0%20%E6%9E%84%E5%BB%BA%E8%B5%9B%E5%8D%9A%E5%B0%8F%E9%95%87)                                                            | Agent 与游戏的结合，模拟社会动态                   | ✅   |                        |
+| **第五部分：毕业设计及未来展望**                                                                                                                                                                                                      |                                       |     |                        |
+| [第十六章 毕业设计](https://hello-agents.datawhale.cc/#/./chapter16/%E7%AC%AC%E5%8D%81%E5%85%AD%E7%AB%A0%20%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1)                                                                                | 构建属于你的完整多智能体应用                        | ✅   |                        |
+
+### [社区贡献精选 (Community Blog)](https://hello-agents.datawhale.cc/#/?id=%e7%a4%be%e5%8c%ba%e8%b4%a1%e7%8c%ae%e7%b2%be%e9%80%89-community-blog)
+
+  欢迎大家将在学习 Hello-Agents 或 Agent 相关技术中的独到见解、实践总结，以 PR 的形式贡献到社区精选。如果是独立于正文的内容，也可以投稿至 Extra-Chapter！**期待你的第一次贡献！**
+
+|社区精选|内容总结|
+|---|---|
+|[00-共创毕业设计](https://github.com/datawhalechina/hello-agents/blob/main/Co-creation-projects)|社区共创毕业设计项目|
+|[01-Agent面试题总结](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra01-%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.md)|Agent 岗位相关面试问题|
+|[01-Agent面试题答案](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra01-%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.md)|相关面试问题答案|
+|[02-上下文工程内容补充](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra02-%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E8%A1%A5%E5%85%85%E7%9F%A5%E8%AF%86.md)|上下文工程内容扩展|
+|[03-Dify智能体创建保姆级教程](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra03-Dify%E6%99%BA%E8%83%BD%E4%BD%93%E5%88%9B%E5%BB%BA%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B.md)|Dify智能体创建保姆级教程|
+|[04-Hello-agents课程常见问题](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra04-DatawhaleFAQ.md)|Datawhale课程常见问题|
+|[05-Agent Skills与MCP对比解读](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra05-AgentSkills%E8%A7%A3%E8%AF%BB.md)|Agent Skills与MCP技术对比|
+|[06-GUI Agent科普与实战](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra06-GUIAgent%E7%A7%91%E6%99%AE%E4%B8%8E%E5%AE%9E%E6%88%98.md)|GUI Agent科普与多场景实战|
+|[07-环境配置](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra07-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md)|环境配置|
+|[08-如何写出好的Skill](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra08-%E5%A6%82%E4%BD%95%E5%86%99%E5%87%BA%E5%A5%BD%E7%9A%84Skill.md)|Skill 写作最佳实践|
+|[09-Agent应用开发实践踩坑与经验分享](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra09-Agent%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5%E8%B8%A9%E5%9D%91%E4%B8%8E%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.md)|Code Agent 应用开发踩坑与经验总结|
+|[10-Agent Self-Evolution智能体自进化](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra10-Agent%E8%87%AA%E8%BF%9B%E5%8C%96.md)|Agent 自进化四类闭环与代表项目|
+|[11-WebAgent科普与实战](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra11-WebAgent%E7%A7%91%E6%99%AE%E4%B8%8E%E5%AE%9E%E6%88%98.md)|Web Agent 原理、反爬实战与 HelloAgents 集成|
+|[12-旅行助手后训练实战](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra12-%E6%97%85%E8%A1%8C%E5%8A%A9%E6%89%8B%E5%90%8E%E8%AE%AD%E7%BB%83%E5%AE%9E%E6%88%98.md)|把旅行助手 Demo 打磨成能用的 Planner|
+|[13-Hello-Agents视频课录制共创](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra13-Hello-Agents%E8%A7%86%E9%A2%91%E8%AF%BE%E5%BD%95%E5%88%B6%E5%85%B1%E5%88%9B.md)|视频课程共创录制资源|
